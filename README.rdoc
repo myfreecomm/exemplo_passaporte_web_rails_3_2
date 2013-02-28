@@ -4,5 +4,8 @@ See https://github.com/myfreecomm/omni_auth_myfc_id for the gem it uses.
 
 To run the app, have Sqlite installed and:
 
+bundle
+
 rake db:setup
+
 rails s
