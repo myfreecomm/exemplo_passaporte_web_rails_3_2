@@ -7,7 +7,6 @@ gem 'rails', '3.2.12'
 
 gem 'sqlite3'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -36,3 +35,17 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'omni_auth_passaporte_web', '3.0.0'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.13.0'
+  gem 'factory_girl_rails', '~> 4.2.1'
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'pry-doc'
+  gem 'awesome_print'
+end
+
+# To use thin server
+gem 'thin'

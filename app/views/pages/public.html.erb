@@ -1,0 +1,11 @@
+<h1>Pages#public</h1>
+<p>Find me in app/views/pages/public.html.erb</p>
+
+<% if current_user %>
+  <p>Hello, <%= current_user.email %>!</p>
+  <p><%= link_to "Log out", logout_path %></p>
+<% else %>
+  <p><%= link_to "Log in with Passaporte Web", login_path %></p>
+<% end %>
+
+<p><%= link_to "Private page", private_path %></p>
