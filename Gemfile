@@ -36,7 +36,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'omni_auth_passaporte_web', '3.0.1'
+gem 'omni_auth_passaporte_web', '3.0.2'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.13.0'
